@@ -40,9 +40,9 @@ def main():
         
         COMMENT = comment
 
-        if any(flag in comment.body.lower() for index, flag in enumerate(RED_FLAGS)) and comment.id not in commented:
+        if any(flag in comment.body.lower() for flag in RED_FLAGS) and comment.id not in commented:
           print 'commenting...'
-          comment.reply(NSA_MESSAGE + "'" + RED_FLAGS[index] + "'.")
+          comment.reply(NSA_MESSAGE + "'" + flag + "'.")
           commented.append(comment.id)
           print 'looking...'
 
