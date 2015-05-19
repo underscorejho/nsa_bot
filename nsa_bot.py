@@ -40,11 +40,13 @@ def main():
         
         COMMENT = comment
 
-        if any(flag in comment.body.lower() for flag in RED_FLAGS) and comment.id not in commented:
-          print 'commenting...'
-          comment.reply(NSA_MESSAGE + "'" + flag + "'.")
-          commented.append(comment.id)
-          print 'looking...'
+        for flag in RED_FLAGS and comment.id not in commented:
+          if flag in comment.body.lower() 
+            print 'commenting...'
+            comment.reply(NSA_MESSAGE + "'" + flag + "'.")
+            commented.append(comment.id)
+            print 'looking...'
+            break
 
     except Exception as err:
       print err
