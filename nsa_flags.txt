@@ -1,0 +1,271 @@
+assassination
+Attack
+Domestic security
+Drill
+Exercise
+Cops
+Law enforcement
+Authorities
+Disaster assistance
+Disaster management
+DNDO
+National preparedness
+Mitigation
+Prevention
+Response
+Recovery
+Dirty bomb
+Domestic nuclear detection 
+Emergency management
+Emergency response
+First responder
+Homeland security
+Maritime domain awareness
+(MDA)
+National preparedness
+initiative
+Militia
+Shooting
+Shots fired
+Evacuation
+Deaths
+Hostage
+Explosion
+Explosive
+Police
+Disaster medical assistance
+team
+Organized crime
+National security
+State of emergency
+Security
+Breach
+Threat
+Standoff
+SWAT
+Screening
+Lockdown
+Bomb (squad or threat)
+Crash
+Looting
+Riot
+Emergency Landing
+Pipe bomb
+Incident
+Facility
+zmat
+Nuclear
+Chemical spill
+Suspicious package
+Suspicious device
+Toxic
+National laboratory
+Nuclear facility
+Nuclear threat
+Cloud
+Plume
+Radiation
+Radioactive Leak
+Biological infection (or
+event)
+Chemical
+Chemical burn
+Biological
+Epidemic
+Hazardous
+Hazardous material incident
+Industrial spill
+Infection
+Powder (white)
+Gas Spillover
+Anthrax
+Blister agent
+Chemical agent
+Exposure
+Burn
+Nerve agent
+Ricin
+Sarin
+North Korea
+nfrastructure security
+Airport
+CIKR
+AMTRAK
+Collapse
+Computer infrastructure
+Communications
+infrastructure
+Telecommunications
+Critical infrastructure
+National infrastructure
+Metro
+WMATA
+Airplane
+Chemical fire
+Subway
+BART
+MARTA
+Port Authority
+NBIC (National
+Biosurveillance Integration
+Center)
+Transportation security
+Grid
+Power
+Smart
+Body scanner
+Electric Failure or outage
+Black out
+Brown out
+Port
+Dock
+Bridge
+Cancelled
+Delays
+Service disruption
+Power lines
+Gang
+Drug
+Narcotics
+Cocaine
+Marijuana
+Heroin
+Border
+Mexico
+Cartel
+Southwest
+Juarez
+Sinaloa
+Tijuana
+Torreon
+Yuma
+Tucson
+Decapitated
+U.S. Consulate
+Consular
+El Paso
+Fort Hancock
+San Diego
+Ciudad Juarez
+Nogales
+Sonora
+Colombia
+Mara salvatrucha
+MS13 or MS-13
+Drug war
+Mexican army
+Methamphetamine
+Cartel de Golfo
+Gulf Cartel
+La Familia
+Reynosa
+Nuevo Leon
+Narcos
+Los Zetas
+Shootout
+Execution
+Gunfight
+Trafficking
+Kidnap
+Calderon
+Reyosa
+Bust
+Tamaulipas
+Meth Lab
+Drug trade
+Illegal immigrants
+Smuggling
+Smugglers
+Matamoros
+Michoacana
+Guzman
+Arellano-Felix
+Beltran-Leyva
+Barrio Azteca
+Artistic Assassins
+Mexicles
+New Federation
+Terrorism
+Al Qaeda
+Terror
+Attack
+Iraq
+Afghanistan
+Iran
+Pakistan
+Agro
+Environmental terrorist
+Eco terrorism
+Conventional weapon
+Target
+Weapons grade
+Dirty bomb
+Enriched
+Nuclear
+Chemical weapon
+Biological weapon
+Ammonium nitrate
+Improvised explosive device
+IED
+Abu Sayyaf
+Hamas
+FARC (Armed Revolutionary
+Forces Colombia)
+IRA (Irish Republican Army)
+ETA (Euskadi ta Askatasuna)
+Basque Separatists
+Hezbollah
+Tamil Tigers
+PLF (Palestine Liberation
+Front)
+PLO (Palestine Liberation
+Organization
+Car bomb
+Jihad
+Taliban
+Weapons cache
+Suicide bomber
+Suicide attack 	Suspicious substance
+AQAP (AL Qaeda Arabian
+Peninsula)
+AQIM (Al Qaeda in the
+Islamic Maghreb)
+TTP (Tehrik-i-Taliban
+Pakistan)
+Yemen
+Pirates
+Extremism
+Somalia
+Nigeria
+Radicals
+Al-Shabaab
+Home grown
+Plot
+Nationalist
+Recruitment
+Fundamentalism
+Islamist
+Cyber security
+Botnet
+DDOS (dedicated denial of
+service)
+Denial of service
+Malware
+Virus
+Trojan
+Keylogger
+Cyber Command 	2600
+Spammer
+Phishing
+Rootkit
+Phreaking
+Cain and abel
+Brute forcing
+Mysql injection
+Cyber attack
+Cyber terror 	Hacker
+China
+Conficker
+Worm
+Scammers
+Social media

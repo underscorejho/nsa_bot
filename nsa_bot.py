@@ -17,8 +17,12 @@ def main():
   r.login(USER, PASS)
   print "start"
 
-  commented = []
+  FLAGS = open('./nsa_flags.txt')
   ERR = False
+  RED_FLAGS = [flag.lower() for flag in FLAGS.readlines()]
+  NSA_MESSAGE = "As per the NSA's [Social Media Reference Guide for DHS Analyst](http://www.scribd.com/doc/82701103/Analyst-Desktop-Binder-REDACTED ):\n It is likely the NSA noted your use of the word or phrase "
+
+  commented = []
 
   username = '/u/' + USER
   print 'username is: ' + username
@@ -31,12 +35,12 @@ def main():
         if ERR: # retry error comment *
           comment = COMMENT
           ERR = False 
-
+        
         COMMENT = comment
 
-        if REFERENCE TO NSA, SPYING, GOV, ETC. in comment.body and comment.id not in commented:
+        if any(flag in comment.body.lower() for flag in RED_FLAGS) and comment.id not in commented:
           print 'commenting...'
-          comment.reply('/u/recursion_bot')
+          comment.reply(NSA_MESSAGE + "'" + flag + "'.")
           commented.append(comment.id)
           print 'looking...'
 
