@@ -2,7 +2,6 @@
 #!/usr/bin/python
 
 # Jared Henry Oviatt
-# Used RemindMeBot! on GitHub as a reference
 
 import time # sleep()
 import os   # environment vars (config vars)
@@ -14,15 +13,11 @@ def main():
   USER = os.environ.get('USER')
   PASS = os.environ.get('PASS')
 
-  r = praw.Reddit(user_agent = 'Recursion Bot operating on /u/recursion_bot v0.01 -- GitHub: https://github.com/underscorejho/recur_bot')
+  r = praw.Reddit(user_agent = 'NSA Bot operating on /u/recursion_bot v0.01 -- GitHub: https://github.com/underscorejho/recur_bot')
   r.login(USER, PASS)
   print "start"
 
   commented = []
-
-  TEN_MINUTES = 600
-  STOP = 'end'
-  ENDED = False
   ERR = False
 
   username = '/u/' + USER
@@ -36,32 +31,15 @@ def main():
         if ERR: # retry error comment *
           comment = COMMENT
           ERR = False 
+
         COMMENT = comment
 
-        if username in comment.body and comment.id not in commented: # look for new calls to username
-          print 'found something...'
-          # wait until allowed to participate again
-          print 'resting...'
-          time.sleep( TEN_MINUTES )
-
-          if commented: # check if it's been ended
-            for reply in comment.replies:
-              if STOP in reply.body:
-                # stop recurring on current thread
-                commented.append(comment.id)
-                print 'thread ended...'
-                ENDED = True
-                print 'looking...'
-                break
-          
-          if ENDED:
-            ENDED = False
-            continue
-
+        if REFERENCE TO NSA, SPYING, GOV, ETC. in comment.body and comment.id not in commented:
           print 'commenting...'
           comment.reply('/u/recursion_bot')
           commented.append(comment.id)
           print 'looking...'
+
     except Exception as err:
       print err
       ERR = True
@@ -70,6 +48,3 @@ def main():
 if __name__ == '__main__':
   main()
 
-# *
-# PRAW automatically retries requests, but comment_stream will have a new comment (i think)
-# this method retries the comment it was on, but will ignore the current comment
