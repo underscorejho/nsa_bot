@@ -41,7 +41,7 @@ def main():
         COMMENT = comment
 
         for flag in RED_FLAGS and comment.id not in commented:
-          if flag in comment.body.lower() 
+          if flag in comment.body.lower():
             print 'commenting...'
             comment.reply(NSA_MESSAGE + "'" + flag + "'.")
             commented.append(comment.id)
