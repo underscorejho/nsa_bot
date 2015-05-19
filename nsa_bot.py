@@ -19,7 +19,7 @@ def main():
 
   FLAGS = open('./nsa_flags.txt')
   ERR = False
-  RED_FLAGS = [flag.lower() for flag in FLAGS.readlines()]
+  RED_FLAGS = [flag.lower().strip() for flag in FLAGS.readlines()]
   NSA_MESSAGE = "As per the NSA's [Social Media Reference Guide for DHS Analyst](http://www.scribd.com/doc/82701103/Analyst-Desktop-Binder-REDACTED ):\n It is likely the NSA noted your use of the word or phrase "
 
   commented = []
