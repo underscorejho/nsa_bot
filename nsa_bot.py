@@ -13,7 +13,7 @@ def main():
   USER = os.environ.get('USER')
   PASS = os.environ.get('PASS')
 
-  r = praw.Reddit(user_agent = 'NSA Bot operating on /u/recursion_bot v0.01 -- GitHub: https://github.com/underscorejho/recur_bot')
+  r = praw.Reddit(user_agent = 'NSA Bot operating on /u/_nsa_bot_ v0.01 -- GitHub: https://github.com/underscorejho/nsa_bot')
   r.login(USER, PASS)
   print "start"
 
@@ -42,9 +42,15 @@ def main():
 
         for flag in RED_FLAGS:
           if flag in comment.body.lower().split() and comment.id not in commented:
+
             print 'commenting...'
+            print 'comment: ' + comment
+            print 'flag: ' + flag
+            print 'replying with: ' + comment.reply(NSA_MESSAGE + "'" + flag + "'.")
+
             comment.reply(NSA_MESSAGE + "'" + flag + "'.")
             commented.append(comment.id)
+
             print 'looking...'
             break
 
