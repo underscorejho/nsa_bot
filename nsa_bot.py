@@ -44,7 +44,7 @@ def main():
           if flag in comment.body.lower().split() and comment.id not in commented:
 
             print 'commenting...'
-            print 'comment: ' + comment
+            print 'comment: ' + comment.body
             print 'flag: ' + flag
             print 'replying with: ' + comment.reply(NSA_MESSAGE + "'" + flag + "'.")
 
