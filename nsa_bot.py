@@ -42,7 +42,7 @@ def main():
             print 'commenting...'
             print 'comment: ' + comment.body
             print 'flag: ' + flag
-            print 'replying with: ' NSA_MESSAGE + "'" + flag + "'."
+            print 'replying with: ' + NSA_MESSAGE + "'" + flag + "'."
 
             comment.reply(NSA_MESSAGE + "'" + flag + "'.")
             commented.append(comment.id)
