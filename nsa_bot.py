@@ -19,6 +19,8 @@ def main():
 
   FLAGS = open('./nsa_flags.txt')
   RED_FLAGS = [flag.lower().strip() for flag in FLAGS.readlines()]
+  FLAGS.close()
+
   NSA_MESSAGE = "*I'm in beta still! Message me if you have feedback.* As per the NSA's [Social Media Reference Guide for DHS Analyst](http://www.scribd.com/doc/82701103/Analyst-Desktop-Binder-REDACTED ):\n It is likely the NSA noted your use of the word or phrase "
 
   commented = []
@@ -40,7 +42,7 @@ def main():
             print 'commenting...'
             print 'comment: ' + comment.body
             print 'flag: ' + flag
-            print 'replying with: ' + comment.reply(NSA_MESSAGE + "'" + flag + "'.")
+            print 'replying with: ' NSA_MESSAGE + "'" + flag + "'."
 
             comment.reply(NSA_MESSAGE + "'" + flag + "'.")
             commented.append(comment.id)
