@@ -21,7 +21,7 @@ def main():
   RED_FLAGS = [flag.lower().strip() for flag in FLAGS.readlines()]
   FLAGS.close()
 
-  NSA_MESSAGE = "*I'm in beta still! Message me if you have feedback.* As per the NSA's [Social Media Reference Guide for DHS Analyst](http://www.scribd.com/doc/82701103/Analyst-Desktop-Binder-REDACTED ):\n It is likely the NSA noted your use of the word or phrase "
+  NSA_MESSAGE = "*I'm in beta still! Message me if you have feedback.* As per the NSA's [Social Media Reference Guide for DHS Analyst](http://www.scribd.com/doc/82701103/Analyst-Desktop-Binder-REDACTED): It is likely the NSA noted your use of the word or phrase "
 
   commented = []
 

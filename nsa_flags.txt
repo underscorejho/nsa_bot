@@ -209,29 +209,27 @@ Improvised explosive device
 IED
 Abu Sayyaf
 Hamas
-FARC (Armed Revolutionary
-Forces Colombia)
-IRA (Irish Republican Army)
-ETA (Euskadi ta Askatasuna)
+FARC
+IRA
+Euskadi ta Askatasuna
 Basque Separatists
 Hezbollah
 Tamil Tigers
-PLF (Palestine Liberation
-Front)
-PLO (Palestine Liberation
-Organization
+PLF
+Palestine Liberation Organization
 Car bomb
 Jihad
 Taliban
 Weapons cache
 Suicide bomber
 Suicide attack 	Suspicious substance
-AQAP (AL Qaeda Arabian
-Peninsula)
-AQIM (Al Qaeda in the
-Islamic Maghreb)
-TTP (Tehrik-i-Taliban
-Pakistan)
+AQAP
+AL Qaeda Arabian
+Peninsula
+AQIM
+Al Qaeda in the Islamic Maghreb
+TTP 
+Tehrik-i-Taliban Pakistan
 Yemen
 Pirates
 Extremism
@@ -247,14 +245,13 @@ Fundamentalism
 Islamist
 Cyber security
 Botnet
-DDOS (dedicated denial of
-service)
+DDOS
 Denial of service
 Malware
 Virus
 Trojan
 Keylogger
-Cyber Command 	2600
+Cyber Command
 Spammer
 Phishing
 Rootkit
@@ -263,7 +260,8 @@ Cain and abel
 Brute forcing
 Mysql injection
 Cyber attack
-Cyber terror 	Hacker
+Cyber terror
+Hacker
 China
 Conficker
 Worm
