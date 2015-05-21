@@ -18,7 +18,6 @@ def main():
   print "start"
 
   FLAGS = open('./nsa_flags.txt')
-  ERR = False
   RED_FLAGS = [flag.lower().strip() for flag in FLAGS.readlines()]
   NSA_MESSAGE = "*I'm in beta still! Message me if you have feedback.* As per the NSA's [Social Media Reference Guide for DHS Analyst](http://www.scribd.com/doc/82701103/Analyst-Desktop-Binder-REDACTED ):\n It is likely the NSA noted your use of the word or phrase "
 
@@ -34,12 +33,7 @@ def main():
       # loop through all comments
       print 'looking...'
       for comment in praw.helpers.comment_stream(r, 'all', limit=None, verbosity=0):
-        if ERR: # retry error comment *
-          comment = COMMENT
-          ERR = False 
         
-        COMMENT = comment
-
         for flag in RED_FLAGS:
           if flag in comment.body.lower().split() and comment.id not in commented:
 
@@ -56,8 +50,6 @@ def main():
 
     except Exception as err:
       print err
-      ERR = True
-      
 
 if __name__ == '__main__':
   main()
