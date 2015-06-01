@@ -3,6 +3,11 @@
 
 # Jared Henry Oviatt
 
+#TODO change to csv file
+#TODO add values to words for scoring
+#TODO using thresholds, do nothing, message, or comment reply
+#TODO refactor into functions, make main() pretty
+
 import time # sleep()
 import os   # environment vars (config vars)
 
